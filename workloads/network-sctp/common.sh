@@ -109,6 +109,7 @@ export_defaults() {
 enable_sctp() {
   log "Setting up sctp on the worker nodes"
   oc apply -f allow-sctp.yaml
+}
 
 deploy_operator() {
   log "Starting test for cloud: $cloud_name"

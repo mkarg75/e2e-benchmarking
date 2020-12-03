@@ -17,7 +17,7 @@ spec:
     privileged: true
   cerberus_url: "$CERBERUS_URL"
   workload:
-    name: uperf-sctp
+    name: uperf
     args:
       hostnetwork: ${hostnetwork}
       serviceip: ${serviceip}
